@@ -1,4 +1,4 @@
-![Preview Twibbon](/public/preview.png)
+![Preview Twibbon](/public/img/preview.png)
 
 # Twibbon Generator
 
