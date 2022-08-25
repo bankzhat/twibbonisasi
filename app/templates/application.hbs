@@ -1,32 +1,31 @@
 {{!-- The following component displays Ember's default welcome message. --}}
 <article>
-<h1>Twibbon Generator</h1>
-<p>Ini adalah situs web tempat Anda dapat menambahkan foto ke dalam bingkai.</p>
-<p>Pilih sebuah file dari komputer anda.</p>
-<p>Anda dapat mengupload berbagai ukuran gambar dari hard drive anda.</p>
-<p>
-<img id="preview" src="img/preview.png"/>
-<img id="twibbon" src="img/twibbon.png" style="display: none"/>
-<canvas id="jilah" style="width: 300px; height: 300px; display: none"></canvas>
-<p>
-<p>
-<input type="text" id="filename" autocomplete="off" readonly="" placeholder="Tidak ada file yang diunggah.">
-<br>
-<label for="fileInput" class="custom-file-upload">
-<i class="text-button"></i> <i class="far fa-images"></i> UPLOAD GAMBAR BARU
-<input id="fileInput" type="file" />
-</label>
-</p>
-<p>
-<a href="#" id="unduh" download="download.png" style="display: none" class="button-3" role="button"><i class="fa fa-download"></i> UNDUH</a>
-<button id="klik" onclick="drawImage()" class="button-3" role="button"><i class="far fa-eye"></i> PRATINJAU</button> 
-<button id="cancel" onclick="location.reload()" class="button-4" role="button" style="color:red"><i class="fas fa-trash-alt"></i> HAPUS</button>
-</p>
-<p>&nbsp;</p>
-<p id="share"><i class="fas fa-share-alt"></i>&nbsp;Bagikan...</p>
-</article>
-<footer>
-<p><a target="_blank" rel="noopener" href="https://www.facebook.com/bungferry.wa">Copyright © 2022 Ferry Ayunda</a></p>
+    
+    <h1>The MIT License (MIT)</h1>
+
+    <p>Copyright © 2022 &lt;copyright holders&gt;</p>
+
+    <p>Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the “Software”), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:</p>
+
+    <p>The above copyright notice and this permission notice shall be included in
+      all copies or substantial portions of the Software.</p>
+
+    <p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+      THE SOFTWARE.</p>
+  </article>
+  <footer>
+  <p><a target="_blank" rel="noopener" href="https://github.com/remy/mit-license">Fork this project to create your own
+      MIT license that you can always link to.</a></p>
 </footer>
 {{!-- Feel free to remove this! --}}
 {{outlet}}
